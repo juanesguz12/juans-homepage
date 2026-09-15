@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width:100%;
+}
+
+body {
+    background-color: #c8e5e8;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+}
+
+.page {
+    width: 760px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #002244;
+    border: 6px ridge #69be28;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 42px;
+    margin: 5px;
+    text-shadow: 3px 3px #69be28;
+}
+
+.header h2 {
+    color: #69be28;
+    margin: 5px;
+}
+
+
+/* MAIN TEXT */
+
+.welcome {
+    font-size: 26px;
+    color: #002244;
+}
+
+.welcome span {
+    color: #69be28;
+    font-style: italic;
+}
+
+h2 {
+    color: #002244;
+}
+
+p {
+    color: #000080;
+}
+
+.touchdown {
+    width: 250px;
+    height: auto;
+    border: 5px ridge #69be28;
+    margin: 10px;
+}
+/* CONTENT BOXES */
+
+.box {
+    background-color: #eeeeee;
+    border: 4px ridge #002244;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.box h2 {
+    color: #002244;
+    text-decoration: underline;
+}
+
+.box p {
+    color: #000080;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* PLAYER TABLE */
+
+.player-table {
+    width: 100%;
+    border: 3px solid #002244;
+    background-color: white;
+}
+
+.player-table td {
+    border: 2px solid #69be28;
+    padding: 10px;
+    color: #002244;
+}
+
+.player-table th {
+    background-color: #002244;
+    color: white;
+    font-size: 20px;
+}
+
+
+.champions {
+    color: #69be28;
+}
+
+
+/* MOVING TEXT */
+
+marquee {
+    color: #002244;
+    background-color: #69be28;
+    margin-top: 10px;
+}
