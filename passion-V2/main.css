@@ -240,30 +240,6 @@ p {
 
 
 
-/* links */
-
-a {
-
-    color: blue;
-
-}
-
-
-a:visited {
-
-    color: purple;
-
-}
-
-
-a:hover {
-
-    color: #FFB612;
-
-}
-
-
-
 /* moving text */
 
 marquee {
@@ -280,26 +256,3 @@ marquee {
 
 }
 
-
-
-
-/* footer */
-
-.footer {
-
-    border-top: 3px solid #FFB612;
-
-    margin-top: 25px;
-
-    padding: 10px;
-
-    font-size: 14px;
-
-}
-
-
-.footer p {
-
-    color: #5A1414;
-
-}
