@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+
+    background-color: #fff3d6;
+
+    font-family: "Times New Roman", serif;
+
+    margin: 0;
+
+}
+
+
+.page {
+
+    width: 760px;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+/* logo */
+
+.logo {
+
+    width: 250px;
+
+    height: auto;
+
+}
+
+
+/* header */
+
+.header {
+
+    background-color: #5A1414;
+
+    border: 6px ridge #FFB612;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+}
+
+
+.header h1 {
+
+    color: white;
+
+    font-size: 42px;
+
+    margin: 5px;
+
+    text-shadow: 3px 3px #FFB612;
+
+}
+
+
+.header h2 {
+
+    color: #FFB612;
+
+    margin: 5px;
+
+}
+
+
+
+/* main text */
+
+.welcome {
+
+    font-size: 26px;
+
+    color: #5A1414;
+
+}
+
+
+.welcome span {
+
+    color: #FFB612;
+
+    font-style: italic;
+
+    font-weight: bold;
+
+}
+
+
+h2 {
+
+    color: #5A1414;
+
+}
+
+
+p {
+
+    color: #5A1414;
+
+}
+
+
+.gold-text {
+
+    color: #FFB612;
+
+    font-weight: bold;
+
+}
+
+
+
+/* touchdown image */
+
+.touchdown {
+
+    width: 600px;
+
+    height: auto;
+
+    border: 5px ridge #FFB612;
+
+    margin: 10px;
+
+}
+
+
+
+/* content boxes */
+
+.box {
+
+    background-color: #eeeeee;
+
+    border: 4px ridge #5A1414;
+
+    margin: 20px 0;
+
+    padding: 15px;
+
+}
+
+
+.box h2 {
+
+    color: #5A1414;
+
+    text-decoration: underline;
+
+}
+
+
+.box p {
+
+    color: #5A1414;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* player table */
+
+.player-table {
+
+    width: 100%;
+
+    border: 3px solid #5A1414;
+
+    background-color: white;
+
+}
+
+
+.player-table td {
+
+    border: 2px solid #FFB612;
+
+    padding: 10px;
+
+    color: #5A1414;
+
+}
+
+
+.player-table th {
+
+    background-color: #5A1414;
+
+    color: white;
+
+    font-size: 20px;
+
+    padding: 8px;
+
+}
+
+
+
+/* champions */
+
+.champions {
+
+    color: #FFB612;
+
+    text-shadow: 2px 2px #5A1414;
+
+}
+
+
+.championship-photo {
+
+    width: 600px;
+
+    height: auto;
+
+    border: 6px ridge #5A1414;
+
+    margin: 10px;
+
+}
+
+
+
+/* links */
+
+a {
+
+    color: blue;
+
+}
+
+
+a:visited {
+
+    color: purple;
+
+}
+
+
+a:hover {
+
+    color: #FFB612;
+
+}
+
+
+
+/* moving text */
+
+marquee {
+
+    color: #FFB612;
+
+    background-color: #5A1414;
+
+    margin-top: 10px;
+
+    padding: 4px;
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* footer */
+
+.footer {
+
+    border-top: 3px solid #FFB612;
+
+    margin-top: 25px;
+
+    padding: 10px;
+
+    font-size: 14px;
+
+}
+
+
+.footer p {
+
+    color: #5A1414;
+
+}
