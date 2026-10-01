@@ -234,58 +234,6 @@ body {
 
 
 
-/*RANDOM WALL TEXT */
-
-.wall-text {
-
-    position: absolute;
-
-    font-family: Georgia, serif;
-
-    opacity: .25;
-
-    z-index: 1;
-
-}
-
-
-.wall-text-one {
-
-    top: 400px;
-    right: 80px;
-
-    font-size: 45px;
-
-    transform: rotate(90deg);
-
-}
-
-
-.wall-text-two {
-
-    bottom: 250px;
-    left: 40px;
-
-    font-size: 35px;
-
-    transform: rotate(-8deg);
-
-}
-
-
-.wall-text-three {
-
-    bottom: 60px;
-    right: 60px;
-
-    font-size: 14px;
-
-    letter-spacing: 8px;
-
-}
-
-
-
 /*CHARACTER POPUP BACKGROUND */
 
 .character-box {
