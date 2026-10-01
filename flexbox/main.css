@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width:100%;
+}
+
+.container {
+    background: lightblue;
+    padding: 10px;
+    display: flex;
+    height: 600px;
+    /* by default flex boxes will always render in the row layout*/
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+
+
+    align-content:center;
+
+    gap: 20px;
+}
+
+.item {
+    background: lightgreen;
+    padding: 10px;
+    border: 1px solid;
+    width: 200px;
+}
