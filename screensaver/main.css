@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width:100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* BLACK BACKGROUND */
+
+body {
+    background-color: black;
+}
+
+/* SCREENSAVER CONTAINER */
+
+.screensaver {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* SUPREME LOGO */
+
+.logo {
+    position: absolute;
+
+    width: 375px;
+    height: 150px;
+
+    animation: bounce 40s linear infinite;
+}
+
+/* ALL TEN SUPREME IMAGES */
+
+.image {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    opacity: 0;
+
+    animation: changeImage 40s steps(1, end) infinite;
+}
+
+/* IMAGE TIMING */
+
+.image1 {
+    animation-delay: 0s;
+}
+
+.image2 {
+    animation-delay: -36s;
+}
+
+.image3 {
+    animation-delay: -32s;
+}
+
+.image4 {
+    animation-delay: -28s;
+}
+
+.image5 {
+    animation-delay: -24s;
+}
+
+.image6 {
+    animation-delay: -20s;
+}
+
+.image7 {
+    animation-delay: -16s;
+}
+
+.image8 {
+    animation-delay: -12s;
+}
+
+.image9 {
+    animation-delay: -8s;
+}
+
+.image10 {
+    animation-delay: -4s;
+}
+
+/* BOUNCING ANIMATION */
+
+@keyframes bounce {
+
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    10% {
+        left: calc(100% - 375px);
+        top: 30%;
+    }
+
+    20% {
+        left: 65%;
+        top: calc(100% - 150px);
+    }
+
+    30% {
+        left: 0;
+        top: 65%;
+    }
+
+    40% {
+        left: 40%;
+        top: 0;
+    }
+
+    50% {
+        left: calc(100% - 375px);
+        top: 45%;
+    }
+
+    60% {
+        left: 70%;
+        top: calc(100% - 150px);
+    }
+
+    70% {
+        left: 0;
+        top: 40%;
+    }
+
+    80% {
+        left: 50%;
+        top: 0;
+    }
+
+    90% {
+        left: calc(100% - 375px);
+        top: 65%;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+
+}
+
+/* CHANGE IMAGE EVERY 4 SECONDS */
+
+@keyframes changeImage {
+
+    0%, 9.999% {
+        opacity: 1;
+    }
+
+    10%, 100% {
+        opacity: 0;
+    }
+
+}
